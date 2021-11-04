@@ -2,7 +2,7 @@
 
 jQuery에서 제공하는 달력 형식의 UI 위젯(widget)[^1] 중 하나이며, 날짜를 다룰 때 UI 형식으로 쉽게 날짜를 선택 하도록 도와주는 역할을 합니다. datepicker를 이용하면 많은 기능을 포함한 디자인된 달력을 간단한 코딩으로도 만들 수 있습니다. datepicker의 동작 순서는 먼저 datepicker 메소드를 토해서 jQuery가 javascript 해석기로 datepicker를 요청합니다. 요청을 받은 javascript 해석기는 DOM에서 id가 datepicker인 요소를 찾습니다. 다시 javascript 해석기로 return 후 화면으로 출력합니다.
 
-![datepicker UML](/Users/chooomu/Sites/joy/datepicker/img/img01.png)
+![datepicker UML](img/img01.png)
 
 [^1]: 프로그래밍에서 widget은 작은 프로그램을 의미하며, 사용자와 컴퓨터가 상호 작용하는 인터페이스 요소.
 
