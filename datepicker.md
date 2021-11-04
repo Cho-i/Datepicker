@@ -38,13 +38,13 @@ $(function() {
 <input type="text" id="testDatepicker">
 ```
 
-![datepicker](/Users/chooomu/Sites/joy/datepicker/img/img02.png)
+![datepicker](img/img02.png)
 
 datepicker를 출력할 input tag를 선언하면, 해당 id를 찾아 기본 옵션의 날짜선택기를 사용할 수 있습니다.
 
 ## 자주 사용하는 옵션
 
-![option](/Users/chooomu/Sites/joy/datepicker/img/img03.png)
+![option](img/img03.png)
 
 다양한 옵션들을 실제로 사용해 보면서 결과를 확인하면 다음과 같습니다.
 
@@ -60,7 +60,7 @@ $(function() {
 
 showOn 옵션은 button 과 image 의 표시여부를 결정하며, 둘 다 선택하거나 한가지만 선택할 수 있습니다. image를 선택할 경우에는 사용할 image의 경로를 정확하게 입력해야 제대로 화면에 나옵니다. buttonImageOnly 옵션은 image를 button 형식 또는 단순히 image만 표시하도록 설정할 수 있습니다. Test를 하기 위해 임의의 이미지를 선택한 모습입니다.
 
-![img04](/Users/chooomu/Sites/joy/datepicker/img/img04.png)
+![img04](img/img04.png)
 
 달을 이동하는 옵션에 관한 설명은 다음과 같습니다.
 
@@ -77,7 +77,7 @@ $(function() {
 
 기본적으로 month이나 year를 이동하려면 상단좌우의 화살표 이미지를 클릭해서 한달 단위로 이동을 할 수 있습니다. 하지만 changeMonth와 changeYear 옵션을 통해서 select box 형식으로 한번에 원하는 month나 year를 선택할 수 있습니다. 또한 nextText와 prevText의 설정을 통해 상단 화살표 툴팁을 정할 수 있습니다.
 
-![img05](/Users/chooomu/Sites/joy/datepicker/img/img05.png)
+![img05](img/img05.png)
 
 한번에 여러 month를 표현할 때는 다음과 같이 배열 형식으로 표현할 month의 개수를 설정할 수 있습니다.
 
@@ -89,7 +89,7 @@ $(function() {
 });
 ```
 
-![img06](/Users/chooomu/Sites/joy/datepicker/img/img06.png)
+![img06](img/img06.png)
 
 날짜선택기의 하단메뉴 설정과 날짜 형식을 설정하는 방법에 대해서 소개하겠습니다.
 
@@ -106,7 +106,7 @@ $(function() {
 
 하단메뉴에는 닫기와 현재날짜를 선택할 수 있으며 showButtonPanel을 통해 표시 여부를 결정하며, closeText와 currentText를 통해서 표시하는 Text를 설정 할 수 있습니다. 또한 dateFormat을 통해서 선택한 날짜에 대한 표현을 다양하게 설정할 수 있습니다.
 
-![img07](/Users/chooomu/Sites/joy/datepicker/img/img07.png)
+![img07](img/img07.png)
 
 날짜선택기의 month와 week의 표현도 사용자가 설정할 수 있습니다.
 
@@ -124,7 +124,7 @@ $(function() {
 
 dayNamesMin은 날짜선택기에 표시하는 요일의 약자를 설정하며, dayNames 설정은 날짜선택기에서 해당 요일의 tooltip에 나타나는 Text를 설정하는 옵션입니다. 또한 monthNamesShort는 changeMonth 옵션이 true일 경우 표현하는 month의 Text를 설정하며, monthNames는 반대로 changeMonth 옵션이 false일 경우 표현하는 month의 Text를 설정할 수 있습니다.
 
-![img08](/Users/chooomu/Sites/joy/datepicker/img/img08.png)
+![img08](img/img08.png)
 
 마지막으로 날짜 선택시 날짜의 선택범위를 설정하는 옵션입니다.
 
@@ -139,7 +139,7 @@ $(function() {
 
 minDate는 설정할 최소 날짜를 의미하며 현재날짜를 기준으로 +-를 통해 일단위로 설정 할 수 있으며, 현재날짜에 대한 상대 날짜가 아닌 절대날짜로 D(날짜), M(달),Y(년)을 숫자 뒤에 붙여서 표현할 수 있습니다.
 
-![img09](/Users/chooomu/Sites/joy/datepicker/img/img09.png)
+![img09](img/img09.png)
 
 ## 사용한 예시
 
